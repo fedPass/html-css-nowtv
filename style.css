@@ -4,6 +4,11 @@ body {
 
 a {
     text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
 }
 
 .button {
@@ -78,7 +83,7 @@ header {
 /*** jumbo ***/
 #jumbo {
     background-color: #FFB100;
-    height: 900px;
+    height: 700px;
     padding-right: 60px;
     padding-bottom: 80px;
 }
@@ -165,6 +170,10 @@ header {
     padding: 20px 0;
 }
 
+#features h2 {
+        padding-bottom: 30px;
+}
+
 #features img {
     height: 90px;
     width: 90px;
@@ -174,6 +183,7 @@ header {
 #features p {
     margin: 0 20px;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 .container-features {
@@ -223,6 +233,41 @@ header {
 }
 
 /*** fine now tv  ***/
+
+/*** footer  ***/
+
+footer {
+    background-color: #1c1c21;
+    color: #fff;
+    padding: 35px 0;
+}
+
+footer p {
+    color: #aaacb1;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+footer li {
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer i {
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+#condition {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/*** fine footer  ***/
 
 @media screen and (max-width: 1440px) {
     #jumbo {
@@ -362,4 +407,20 @@ header {
     #features .box-text {
         margin-bottom: 30px;
     }
+
+    footer li {
+        border-top: 1px solid rgba(255,255,255,0.25);
+    }
+
+    footer img {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 484px) {
+
+
+
 }
